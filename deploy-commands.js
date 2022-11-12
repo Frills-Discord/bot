@@ -1,6 +1,6 @@
 const { REST, Routes } = require("discord.js");
-const clientId = '1040703916721066034';
-const guildId = '975934950954127360';
+const clientId = "1040703916721066034";
+const guildId = "975934950954127360";
 const fs = require("node:fs");
 require("dotenv").config();
 
