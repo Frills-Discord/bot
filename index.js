@@ -57,3 +57,8 @@ for (const file of eventFiles) {
 }
 
 client.login(process.env.DISCORD_TOKEN);
+
+process.on("exit", () => {
+  client.destroy();
+  console.log("Client destroyed");
+});
