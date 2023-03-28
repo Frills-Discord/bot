@@ -12,11 +12,10 @@ module.exports = {
       return;
     }
 
-    try {
-      await command.execute(interaction);
-    } catch (error) {
-      console.error(`Error executing ${interaction.commandName}`);
-      console.error(error);
-    }
+    // try {
+    // await command.execute(interaction);
+    // } catch (error) {
+    //   throw `Error executing ${interaction.commandName} | ${error}`;
+    // }
   },
 };
